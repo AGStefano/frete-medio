@@ -97,6 +97,15 @@ Após obter os valores por estado:
 
 - Calcular a **média ponderada nacional**, ponderada pelo volume de vendas por estado
 - (Opcional) Aplicar um segundo percentil para segurança adicional
+- 
+**Fórmula para Frete Médio Nacional por SKU:**
+
+Frete_Médio_Nacional = ∑ (Frete_j × Peso_j)
+
+Onde:
+- Frete_j = valor médio de frete no estado j
+- Peso_j = proporção de vendas no estado j
+
 
 ---
 
